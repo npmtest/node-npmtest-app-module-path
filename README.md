@@ -1,7 +1,10 @@
-# test coverage for  [app-module-path (v2.2.0)](https://github.com/patrick-steele-idem/app-module-path-node)  [![npm package](https://img.shields.io/npm/v/npmtest-app-module-path.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-app-module-path) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-app-module-path.svg)](https://travis-ci.org/npmtest/node-npmtest-app-module-path)
+# npmtest-app-module-path
+
+#### basic test coverage for  [app-module-path (v2.2.0)](https://github.com/patrick-steele-idem/app-module-path-node)  [![npm package](https://img.shields.io/npm/v/npmtest-app-module-path.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-app-module-path) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-app-module-path.svg)](https://travis-ci.org/npmtest/node-npmtest-app-module-path)
+
 #### Simple module to add additional directories to the Node module search for top-level app modules
 
-[![NPM](https://nodei.co/npm/app-module-path.png?downloads=true)](https://www.npmjs.com/package/app-module-path)
+[![NPM](https://nodei.co/npm/app-module-path.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/app-module-path)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-app-module-path/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-app-module-path/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-app-module-path/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-app-module-path/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-app-module-path/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-app-module-path/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-app-module-path/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-app-module-path/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-app-module-path%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-app-module-path/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-app-module-path/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-app-module-path/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-app-module-path%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-app-module-path/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.html](https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-app-module-path/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-app-module-path/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-app-module-path/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-app-module-path/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-app-module-path/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-app-module-path/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-app-module-path/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Patrick Steele-Idem",
-        "email": "pnidem@gmail.com"
+        "name": "Patrick Steele-Idem"
     },
     "bugs": {
         "url": "https://github.com/patrick-steele-idem/app-module-path-node/issues"
@@ -58,16 +66,13 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "mlrawlings",
-            "email": "ml.rawlings@gmail.com"
+            "name": "mlrawlings"
         },
         {
-            "name": "philidem",
-            "email": "phillip.idem@gmail.com"
+            "name": "philidem"
         },
         {
-            "name": "pnidem",
-            "email": "pnidem@gmail.com"
+            "name": "pnidem"
         }
     ],
     "name": "app-module-path",
@@ -75,7 +80,6 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/patrick-steele-idem/app-module-path-node.git"
@@ -83,7 +87,8 @@
     "scripts": {
         "test": "node test/test.js && ./node_modules/mocha/bin/mocha test/test2.js"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
